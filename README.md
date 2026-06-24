@@ -19,7 +19,7 @@ Play solo or compete with friends in multiplayer rooms. Each round generates a r
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - React
@@ -35,7 +35,7 @@ Play solo or compete with friends in multiplayer rooms. Each round generates a r
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Scattergories-game/
