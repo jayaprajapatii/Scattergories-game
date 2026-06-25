@@ -128,6 +128,10 @@ Contains helper functions used across the project.
   - Configures routing and connects all pages of the application.
 - `main.jsx`
   - Entry point of the React application.
+- `App.css`
+  - Contains custom component-level styles that complement Tailwind CSS utilities.
+- `index.css`
+  - Imports Tailwind CSS and defines global styles applied throughout the application.
 
 ---
 
