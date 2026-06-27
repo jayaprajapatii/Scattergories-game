@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import categories from "../../constants/categories";
 
 function GamePage() {
 
@@ -12,6 +11,7 @@ function GamePage() {
   const letter = location.state?.letter || "";
   const round = location.state?.round || 1;
   const roomCode = location.state?.roomCode;
+  const categories = location.state?.categories || [];
   console.log("GamePage roomCode =", roomCode);
 
   const [answers, setAnswers] = useState({});
@@ -27,6 +27,7 @@ function GamePage() {
           letter,
           round,
           roomCode,
+          categories,
         },
       });
 
@@ -69,6 +70,7 @@ function GamePage() {
         letter,
         round,
         roomCode,
+        categories,
 
       },
 

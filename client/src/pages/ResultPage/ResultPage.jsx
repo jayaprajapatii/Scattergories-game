@@ -6,11 +6,11 @@ function ResultPage() {
 
   const location = useLocation();
   const navigate = useNavigate();
-
   const answers = location.state?.answers || {};
   const letter = location.state?.letter || "";
   const round = location.state?.round || 1;
   const roomCode = location.state?.roomCode;
+  const categories = location.state?.categories || [];
   console.log("Room code from ResultPage:", roomCode);
 
   let totalScore = 0;
@@ -47,6 +47,7 @@ function ResultPage() {
       state: {
         letter: randomLetter,
         round: round + 1,
+        categories,
       },
     });
 

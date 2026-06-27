@@ -6,20 +6,7 @@ function HomePage() {
   const navigate = useNavigate();
   function startSinglePlayerGame() {
 
-  const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-  const randomIndex = Math.floor(
-    Math.random() * alphabet.length
-  );
-
-  const randomLetter = alphabet[randomIndex];
-
-  navigate("/game", {
-    state: {
-      letter: randomLetter,
-      round: 1,
-    },
-  });
+  navigate("/category-selection");
 
 }
 
