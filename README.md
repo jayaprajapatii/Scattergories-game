@@ -16,7 +16,7 @@ Play solo or compete with friends in multiplayer rooms. Each round generates a r
 - Automatic score calculation
 - Multiple rounds
 - Real-time gameplay using Socket.io
-- Own catergory selection for single player mode
+- Own multiple category selection for single player mode
 
 ---
 
