@@ -55,8 +55,10 @@ Scattergories-game/
 │   │   │   ├── GamePage/
 │   │   │   │   └── GamePage.jsx
 │   │   │   └── ResultPage/
-│   │   │       └── ResultPage.jsx
-│   │   ├── services/
+│   │   │   |   └── ResultPage.jsx
+│   |   |   |__ CategorySelectionPage/
+|   |   |       |__ CategorySelectionPage.jsx
+|   │   ├── services/
 │   │   │   └── socket.js
 │   │   ├── utils/
 │   │   │   ├── generateRandomLetter.js
